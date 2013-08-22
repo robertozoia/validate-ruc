@@ -6,7 +6,7 @@ Usage:
 
 	>> import validate_ruc
 	
-	>> print validate_ruc('01234567890')
+	>> print validate_ruc.validate_ruc('01234567890')
 	False
-	>> print validate_ruc('20543741354')
+	>> print validate_ruc.validate_ruc('20543741354')
 	True 
